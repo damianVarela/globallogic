@@ -1,0 +1,11 @@
+
+security:
+  jwt:
+    secret: kajshdfklhasdkflhlsifyiqewyfiadhsfjahdsfk
+    expiration: 43200000 # twelve hours in millis
+spring:
+  web:
+    locale: en
+  jackson:
+    mapper:
+      accept-case-insensitive-properties: true
